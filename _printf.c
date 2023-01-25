@@ -23,7 +23,7 @@ void cleanup(va_list args, buffer_t *output)
  * @format: Character string to print - may contain directives.
  * @output: A buffer_t struct containing a buffer.
  * @args: A va_list of arguments.
- *
+ * @int: integer
  * Return: The number of characters stored to output.
  */
 int run_printf(const char *format, va_list args, buffer_t *output)
